@@ -1,0 +1,22 @@
+﻿{% extends "base.html" %}
+
+{% block title %}CSI{% endblock title %}
+
+{% block title2 %}csi{% endblock title2 %}
+
+{% block page_content %}
+
+ <div class="row my-text text-center">
+     <h4>Input suspect's DNA string:</h4>
+     <form method ="post" action="/result">
+         <textarea rows="4" cols="50" name="dna"></textarea>
+         <br>
+         <br>
+         <button class="my-button" type="submit">Submit</button>
+     </form>
+ </div>
+
+
+{% endblock page_content %}
+
+
